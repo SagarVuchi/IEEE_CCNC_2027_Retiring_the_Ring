@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [ 
+                "${workspaceFolder}/**",
+                "${default}",
+                "${workspaceFolder}/src/opera/datacenter",
+                "/Library/gurobi912/mac64/include"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/local/opt/llvm/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}
